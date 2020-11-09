@@ -170,9 +170,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     android.hardware.camera.provider@2.5 \
-    vendor.qti.hardware.camera.device@1.0 \
-    Snap
-
+    vendor.qti.hardware.camera.device@1.0 
+    
 # Codec2 modules
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
@@ -409,7 +408,6 @@ TARGET_USES_RRO := true
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(COMMON_PATH)/overlay-lineage/lineage-sdk \
-    $(COMMON_PATH)/overlay-lineage/packages/apps/Snap \
     $(COMMON_PATH)/overlay-system
 
 # Permissions
